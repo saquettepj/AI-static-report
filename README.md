@@ -40,10 +40,4 @@ O relatório interativo pode ser acessado via **GitHub Pages**:
 4. Em **Source**, selecione a branch principal (geralmente `main`) e a pasta raiz (`/`).
 5. O GitHub Pages irá gerar um link para acessar o relatório.
 
----
-
-**Arquivo principal:** [`index.html`](index.html)
-
----
-
 Análise gerada com dados de benchmarks públicos.  
