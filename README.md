@@ -1,4 +1,4 @@
-# IA-static-report
+# AI-static-report
 
 Este projeto apresenta uma análise comparativa de modelos de linguagem de IA (LLMs), considerando métricas de **performance**, **velocidade** e **custo**. O relatório interativo foi desenvolvido em HTML e utiliza [Tailwind CSS](https://tailwindcss.com/) e [Chart.js](https://www.chartjs.org/) para visualização dos dados.
 
