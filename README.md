@@ -28,7 +28,7 @@ A escolha do modelo ideal depende do equilíbrio entre desempenho, velocidade e 
 
 O relatório interativo pode ser acessado via **GitHub Pages**:
 
-➡️ [Veja o relatório online](https://saquettepj.github.io/IA-static-report/)
+➡️ [Veja o relatório online](https://saquettepj.github.io/AI-static-report/)
 
 > Substitua `SEU_USUARIO` pelo seu nome de usuário do GitHub.
 
