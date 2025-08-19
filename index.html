@@ -49,7 +49,7 @@
     <div class="container mx-auto p-4 md:p-8">
 
         <header class="text-center mb-8 md:mb-12">
-            <h1 class="text-3xl md:text-5xl font-bold text-gray-800 mb-2">Análise de Modelos de IA</h1>
+            <h1 class="text-3xl md:text-5xl font-bold text-gray-800 mb-2">Análise de Modelos de IA - 2025</h1>
             <p class="text-lg md:text-xl text-gray-600">Baseado em métricas de performance, velocidade e custo</p>
         </header>
 
@@ -105,10 +105,12 @@
             <section id="comparison-section" class="hidden space-y-8">
                  <div class="bg-white p-6 md:p-8 rounded-2xl shadow-lg">
                     <div class="border-b border-gray-200 mb-6">
-                        <nav class="-mb-px flex space-x-6" aria-label="Tabs">
-                            <button id="tab-performance" class="tab-button active whitespace-nowrap py-4 px-1 border-b-2 font-medium text-sm">Performance (Raciocínio)</button>
-                            <button id="tab-speed" class="tab-button whitespace-nowrap py-4 px-1 border-b-2 border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300 font-medium text-sm">Velocidade</button>
-                            <button id="tab-cost" class="tab-button whitespace-nowrap py-4 px-1 border-b-2 border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300 font-medium text-sm">Custo</button>
+                        <!-- Classes ajustadas para melhor layout em telas pequenas -->
+                        <nav class="-mb-px flex flex-wrap gap-2 md:space-x-6" aria-label="Tabs">
+                            <!-- Classes ajustadas para melhor padding e sem a quebra de linha forçada -->
+                            <button id="tab-performance" class="tab-button active py-4 px-4 border-b-2 font-medium text-sm">Performance (Raciocínio)</button>
+                            <button id="tab-speed" class="tab-button py-4 px-4 border-b-2 border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300 font-medium text-sm">Velocidade</button>
+                            <button id="tab-cost" class="tab-button py-4 px-4 border-b-2 border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300 font-medium text-sm">Custo</button>
                         </nav>
                     </div>
 
@@ -133,7 +135,7 @@
                             <canvas id="costChart"></canvas>
                         </div>
                     </div>
-                </div>
+                 </div>
             </section>
 
         <footer class="text-center mt-12 text-gray-500 text-sm">
@@ -239,11 +241,11 @@
             };
 
             function switchComparisonTab(tab) {
-                 Object.values(comparisonTabs).forEach(button => button.classList.remove('active'));
-                 Object.values(comparisonContents).forEach(content => content.classList.add('hidden'));
+                Object.values(comparisonTabs).forEach(button => button.classList.remove('active'));
+                Object.values(comparisonContents).forEach(content => content.classList.add('hidden'));
 
-                 comparisonTabs[tab].classList.add('active');
-                 comparisonContents[tab].classList.remove('hidden');
+                comparisonTabs[tab].classList.add('active');
+                comparisonContents[tab].classList.remove('hidden');
             }
             
             comparisonTabs.performance.addEventListener('click', () => switchComparisonTab('performance'));
@@ -461,4 +463,3 @@
     </script>
 </body>
 </html>
-
